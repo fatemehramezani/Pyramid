@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="صفحه اصلی">
+    <siteMapNode url="~/Default.aspx" title="صفحه اصلی"/>
+    <siteMapNode url="~/Guest/Paper.aspx" title="دانستنی ها"/>
+    <siteMapNode url="~/Guest/Paper/Paper1.aspx"  title="زیباترین معماری های ایرانی| چشم انداز پاناروما"/>
+    <siteMapNode url="~/Guest/Paper/Paper2.aspx" title="انتخاب رنگ برای دکوراسیون داخلی"/>
+    <siteMapNode url="~/Guest/Paper/Paper3.aspx"  title="عجیب ترین ساختمان های جهان"/>
+    <siteMapNode url="~/Guest/Paper/Paper4.aspx" title="رنگ سال 2015"/>
+    <siteMapNode url="~/Guest/Paper/Paper5.aspx"  title="تست شخصیت شناسی از روی رنگ دکوراسیون"/>
+    <siteMapNode url="~/Guest/Product.aspx" title="محصولات"/>
+    <siteMapNode url="~/Guest/Product/Fireplace.aspx" title="شومینه"/>
+    <siteMapNode url="~/Guest/Product/Laminet.aspx"  title="لمینت"/>
+    <siteMapNode url="~/Guest/Product/Barbecue.aspx" title="باربکیو"/>
+    <siteMapNode url="~/Guest/Product/SmartHouse.aspx" title="خانه هوشمند"/>
+    <siteMapNode url="~/Guest/Product/Metal.aspx"  title="ٍسازه های فلزی"/>
+    <siteMapNode url="~/Guest/Compare.aspx"  title="مقایسه"/>
+    <siteMapNode url="~/Guest/AboutUs.aspx" title="درباره ما"/>
+    <siteMapNode url="~/Guest/Contact.aspx"  title="تماس با ما"/>
+    <siteMapNode url="~/Guest/Service.aspx"   title="خدمات"/>
+    <siteMapNode url="~/Guest/Gallery.aspx"  title="نمونه کار"/>
+    <siteMapNode url="~/Login.aspx" title="ورود"/>
+  </siteMapNode>
+</siteMap>

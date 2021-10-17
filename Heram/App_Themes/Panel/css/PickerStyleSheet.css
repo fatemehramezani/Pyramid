@@ -1,0 +1,70 @@
+﻿.PickerCSS
+{
+	background-color: #95bff5;
+	border: #84b2f5 1px solid;
+}
+.PickerHeaderCSS
+{
+	background-color: #aad0f5;
+}
+.PickerHeaderCSS SELECT
+{
+	font-size: 8pt;
+}
+.PickerHeaderCSS INPUT
+{
+	font-size: 8pt;
+}
+.PickerFooterCSS
+{
+	background-color: #aad0f5;
+	color: navy;
+}
+.PickerWeekDayCSS
+{
+	background-color: #b6d7f5;
+	text-align: center;
+	font-size: 8pt;
+	color: navy;
+	height: 19px;
+	border: #9ec6ff 1px solid;
+}
+.PickerCalendarCSS
+{
+	background-color: #e8f4ff;
+	border: lightsteelblue 1px solid;
+	height: 19px;
+}
+.PickerWorkDayCSS
+{
+	background-color: #9ec6ff;
+	border: #84b2f5 1px solid;
+	color: #0066ff;
+	font-style: normal;
+}
+A.PickerWorkDayCSS
+{
+	color: black;
+	text-decoration: none;
+	border: none;
+}
+.PickerForbidenCSS
+{
+    background-color : #b0c4de;
+	color: Red;
+	border: black 1px solid;
+	font-weight: bold;
+}
+.PickerSelectedCSS
+{
+	background-color: White;
+	color: #0033ff;
+	border: #9bc6ff 3px solid;
+}
+A.PickerSelectedCSS
+{
+	font-weight: bold;
+	color: #0066ff;
+	text-decoration: underline;
+	border: none;
+}

@@ -1,0 +1,30 @@
+.base {
+    position:relative;
+    background-image:url('../images/compare/base.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+	width:50%;
+	margin:0 auto;
+	height:456px;
+	box-shadow:inset 0px -1px 0px 0px rgba(0,0,0,0.05)
+}
+
+.frame {
+    background-image:url('../images/compare/frame/frame01.png');
+	position:relative;
+	background-repeat:no-repeat;
+	width:90%;
+	margin: 0 auto;
+	height:310px;
+	top:7px;
+}
+.content	{
+    background-image:url('../images/compare/content/content01.png');
+	position:relative;
+	width:54%;
+	margin: 0 auto;
+	top:90px;
+	left:4px;
+	height:217px;	
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="صفحه اصلی">
+    <siteMapNode url="~/Administrator/Frame.aspx" title="فریم شومینه"/>
+    <siteMapNode url="~/Administrator/Content.aspx" title="محتوای شومینه"/>
+   
+    <siteMapNode url="~/Account/ChangePassword.aspx" title="تغییر کلمه عبور" />
+    <siteMapNode url="~/Administrator/Roles/UsersAndRoles.aspx" title="نقش کاربران" />
+    <siteMapNode url="~/Administrator/Roles/CreateUserWizardWithRoles.aspx" title= "کاربر با نقش" />
+    <siteMapNode url="~/Administrator/User.aspx" title=" کاربران"/>
+    <siteMapNode url="~/Account/Profile.aspx" title="پروفایل"/>
+    <siteMapNode url="~/Logout.aspx" title="خروج" />
+  </siteMapNode>
+</siteMap>
+
+
+
+

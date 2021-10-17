@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "..\Web", "{EB7A2C48-343B-42B0-8135-E1DB13BF217A}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{bc2f4574-ccf3-4f7f-a219-07af8c5a36ab}|Provider.dll;{3464604c-1457-43b8-a40e-64b0698b17de}|DataLayer.dll;{782b5e25-f3b2-48ef-9c7f-91f35942fb99}|ClassLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Web"
+		Debug.AspNetCompiler.PhysicalPath = "..\Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Web"
+		Release.AspNetCompiler.PhysicalPath = "..\Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "16132"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary.csproj", "{782B5E25-F3B2-48EF-9C7F-91F35942FB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{3464604C-1457-43B8-A40E-64B0698B17DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provider", "..\Provider\Provider.csproj", "{BC2F4574-CCF3-4F7F-A219-07AF8C5A36AB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ourcompany.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\ClassLibrary\\ClassLibrary.csproj
+		SccProjectName1 = ../ClassLibrary
+		SccLocalPath1 = ..\\ClassLibrary
+		SccProjectUniqueName2 = ..\\DataLayer\\DataLayer.csproj
+		SccProjectName2 = ../DataLayer
+		SccLocalPath2 = ..\\DataLayer
+		SccProjectUniqueName3 = ..\\Provider\\Provider.csproj
+		SccProjectName3 = ../Provider
+		SccLocalPath3 = ..\\Provider
+		SccWebProject4 = true
+		SccProjectUniqueName4 = .
+		SccLocalPath4 = .
+		SccProjectEnlistmentChoice4 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB7A2C48-343B-42B0-8135-E1DB13BF217A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7A2C48-343B-42B0-8135-E1DB13BF217A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7A2C48-343B-42B0-8135-E1DB13BF217A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7A2C48-343B-42B0-8135-E1DB13BF217A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{782B5E25-F3B2-48EF-9C7F-91F35942FB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782B5E25-F3B2-48EF-9C7F-91F35942FB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782B5E25-F3B2-48EF-9C7F-91F35942FB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782B5E25-F3B2-48EF-9C7F-91F35942FB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3464604C-1457-43B8-A40E-64B0698B17DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3464604C-1457-43B8-A40E-64B0698B17DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3464604C-1457-43B8-A40E-64B0698B17DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3464604C-1457-43B8-A40E-64B0698B17DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC2F4574-CCF3-4F7F-A219-07AF8C5A36AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2F4574-CCF3-4F7F-A219-07AF8C5A36AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2F4574-CCF3-4F7F-A219-07AF8C5A36AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2F4574-CCF3-4F7F-A219-07AF8C5A36AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
